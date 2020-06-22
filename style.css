@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a:hover {
+    color:#DF0029;
+}
+#top {
+    background-color: white;
+    height: 135px;
+    width: 100%;
+    padding: 0px 0px 5px ;
+    display: inline-block;
+}
+#top input {
+    position: absolute;
+    margin-left: 380px;
+    border: 1px solid black;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+#top h1 img{
+    height: 90px;
+    width: 800px;
+    text-align: center;
+    padding-left: 200px;
+}
+#top ul li {
+    display: inline-block;
+    float: left;
+}
+.menu {
+    background-color: #CFCFCF;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    text-align: center ;
+    font-size: larger;
+}
+#top img {
+    height: 135px;
+    width: 140px;
+    float: none;
+    padding-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+}
+.menu ul li {
+    display: inline-block;  
+    padding: 20px 60px 20px  20px ;
+    text-transform: capitalize;
+}
+.anh  img {
+    height: 500px;
+    width: 100%;
+}
+
+.sanpham  {
+    height: 800px ;
+    width: 100%;
+   background-color: white;
+   text-align: center;
+  
+}
+#bestseller {
+   margin-bottom: 20px;
+   margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-variant: small-caps;
+    color:#8B0000;
+}
+
+.sp1 img {
+    padding: 20px 20px 20px 10px ;
+    height: 300px ;
+    width: 280px;
+    overflow: hidden;
+
+    justify-content: space-around;
+}
+.sp1 :first-child  {
+ margin-left: 0;
+}
+.tensp {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.giasp {
+    display: flex;
+    justify-content: space-around;;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+ .buy1 button {
+     height: 50px ;
+     width: 100px;
+     font-weight: 1000;
+     border-radius: 20px 20px 20px 20px;
+ }
+.buy  {
+   justify-content: space-around;
+   display: flex;
+   margin-top: 10px;
+}
+.buy1 button:hover {
+   background-color:black;
+   color: white;
+}
+.footer{
+    background-color: #232323;
+    margin-top: 10px;
+    color: white;
+}
+.container {
+    max-width: 1170px ;
+    padding: 0px 15px  ;
+    margin: 0 auto ;
+}
+.row {
+    display: flex;
+    margin: 0 -15px;
+}
+.col-4 {
+max-width: calc(100%/3);
+flex-basis: calc(100%/3);
+padding: 0 15px;
+
+}
+.col-4 .imglogo img {
+    width: 200px;
+   margin: 20px 0px 20px 0;
+}
+.col-4 .address h1 {
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+   text-align: left;
+}
+.col-4 .address p {
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    font-size: 15px;
+}   
+.col-4 .contact h1 {
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+   text-align: left;
+}
+.col-4 .contact p {
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    font-size: 15px;
+}  
+.col-3{
+    max-width: calc(100%/4);
+    flex-basis: calc(100%/4);
+    padding: 0 15px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.col-3 .block-img img{
+    width: 100%;
+}
+.col-3 .content{
+    text-align: center  ;
+    font-size: 15px;
+}
+.col-3 .button {
+    padding-top: 10px;
+}
+.col-3 .button a{
+    padding: 5px 30px;
+    border: 1px solid #273B31;
+    border-radius: 27px;
+    background-color: white;
+    color: black    ;
+}
+.col-3 .button :hover {
+    background-color: #6A7C73;
+    color: white;
+}
+.col-3 .price {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px 5px 5px 5px;
+    color: #A42628;
+}
+.headT button {
+    text-align: center ;
+    font-size: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    color:  white ;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 490px;
+    padding: 5px 50px 5px 50px;
+    border-radius: 40px;
+    background-color: #BB070F   ;
+}
+.headT   :hover{
+    color: #BB070F;
+    background-color: white;
+}
+.col-6{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.col-6 .picture img{
+    width: 100%;
+}
+.infor h3 {
+    padding-top: 80px; 
+    border-bottom: 3px solid #8B0000;
+    font-size: 30px;
+    color: #273B31;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.infor h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #BB070f;
+}
+.infor p , h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+    font-weight: bold;
+}
+ {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+}
+ select {
+    font-size: 20px;
+    padding:  5px 10px 5px 10px;
+    border-radius: 20px ;
+ }
+ .price2  button {
+     margin-top: 20px;
+     border-radius: 20px;
+     padding: 5px 30px 5px 20px;
+     font-size: 25px;
+     background-color: #BB070F ;
+     color:  white;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 600;
+ }
+ .price2 :hover {
+    color: #BB070F;
+    background-color: white;
+ }
