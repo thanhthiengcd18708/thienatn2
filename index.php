@@ -22,12 +22,11 @@
         <div class="menulip">
             <ul> 
                 <li> <a href="Page1(click on home).html" >Home</a></li>
-                <li> <a href="#">Gender</a></li>
-                <li> <a href="#">BackPack</a></li>
-                <li> <a href="#">Jackets</a></li>
-                <li> <a href="#">Blazers</a></li>
+                <li> <a href="#">View</a></li>
+                <li> <a href="#">Insert</a></li>
+                <li> <a href="#">Update</a></li>
+                <li> <a href="#">Product</a></li>
                 <li> <a href="#">Sell Of</a></li>
-                <li> <a href="#">T-shirt</a></li>
                 <li> <a href="Page2(click on All product).html">All Products</a></li>
                 <li> <a href="loginpage.html">Login</a></li>
             </ul>
