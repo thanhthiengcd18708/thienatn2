@@ -26,7 +26,7 @@
                 <li> <a href="InsertData.php">Insert</a></li>
                 <li> <a href="#">Update</a></li>
                 <li> <a href="#">Product</a></li>
-                <li> <a href="#">Sell Of</a></li>
+                <li> <a href="#">Sell</a></li>
                 <li> <a href="Page2(click on All product).html">All Products</a></li>
                 <li> <a href="loginpage.html">Login</a></li>
             </ul>
