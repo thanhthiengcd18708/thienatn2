@@ -22,7 +22,8 @@ if (empty(getenv("DATABASE_URL"))){
    $pdo = new PDO("pgsql:" . sprintf(
           "host=
 ec2-52-202-146-43.compute-1.amazonaws.com
-;port=5432;user=lnmlwwbswnzsfa;password=cb977e5e295f4561e6e00a6bfe3cb3f1239bd0a6f672d8cde0d2527d0f465bbd;dbname=d5jt6vji9s8ql3",
+;port=5432;user=ivbpcmlfondsqz;password=b733680b50629a58645d34e633289de87befa07a0bd62cf9c06f44a2efa85c7a;dbname=
+d100ckrdal5urm",
         $db["host"],
         $db["port"],
         $db["user"],
@@ -44,7 +45,7 @@ echo '<p>productinformation:</p>';
 <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>productID</th>
+        <th>productid</th>
         <th>nameproduct</th>
         <th>price</th>
       </tr>
@@ -57,7 +58,7 @@ echo '<p>productinformation:</p>';
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['productID'] ?></td>
+        <td scope="row"><?php echo $row['productid'] ?></td>
         <td><?php echo $row['nameproduct'] ?></td>
         <td><?php echo $row['price'] ?></td>
       </tr>
