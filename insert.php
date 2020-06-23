@@ -13,7 +13,7 @@ list-style: none;
 <h1>INSERT DATA TO DATABASE</h1>
 <h2>Enter data into student table</h2>
 <ul>
-    <form name="InsertData" action="InsertData.php" method="POST" >
+    <form name="insert" action="insert.php" method="POST" >
 <li>Student ID:</li><li><input type="text" name="StudentID" /></li>
 <li>Full Name:</li><li><input type="text" name="fname" /></li>
 <li>Email:</li><li><input type="text" name="email" /></li>
